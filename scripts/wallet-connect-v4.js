@@ -6063,6 +6063,8 @@
           imageSrc=${tt(Lt.getConnectorImage(e))}
           .installed=${!0}
           name=${e.name??"Unknown"}
+          tagLabel="INSTALLED"
+          tagVariant="success"
           @click=${()=>this.onConnector(e)}
         >
         </wui-list-wallet>
